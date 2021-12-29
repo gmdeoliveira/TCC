@@ -98,7 +98,7 @@ hdot = VT*sin(gamma);
 thetadot = q; % Derivada do ângulo de arfagem
 uwqdot = M\(A + G + P + Fd);
 udot = uwqdot(1);
-wdot = uwqdot(2);52 APÊNDICE D. Código xdot_long.m
+wdot = uwqdot(2);
 qdot = uwqdot(3);
 xd = [udot; wdot; thetadot; qdot; xe_dot; hdot];
 
