@@ -1,6 +1,5 @@
 clear all; close all
-%% Linearização do modelo longitudinal
-
+%%Linearização do modelo longitudinal
 % Executar o código long_trim.m antes deste código
 r2d = 180/pi;
 global utrim xtrim
