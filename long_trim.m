@@ -1,5 +1,5 @@
 clear all
-%% Programa de trimagem do modelo longitudinal
+%%Programa de trimagem do modelo longitudinal
 global xtrim utrim 
 
 dec0 = zeros(3, 1);
@@ -8,10 +8,10 @@ xtrim = dec2x(dectrim);
 utrim = dec2u(dectrim);
 
 function x = dec2x(dec)
-alpha = pi/180; % VARIAVEL DE DECISﾃO
-gamma = 0; % VARIAVEL DE DECISﾃO (VALOR PADRﾃO: ZERO!)
+alpha = pi/180; % VARIAVEL DE DECISﾃグ
+gamma = 0; % VARIAVEL DE DECISﾃグ (VALOR PADRﾃグ: ZERO!)
 theta =  alpha + gamma;
-VT = 6; % VARIAVEL DE DECISﾃO
+VT = 6; % VARIAVEL DE DECISﾃグ
 U = VT*cos(alpha);
 W = VT*sin(alpha);
 q = 0;
